@@ -1,0 +1,348 @@
+@media(min-width: 1173px) {
+    .special-flex {
+        flex-direction: column;
+    }
+}
+
+.bg-maria-gradient {
+    background: rgb(253,29,29);
+    background: linear-gradient(90deg,  rgba(252,176,69,1) 0%, rgba(253,29,29,1) 100%);
+}
+
+.bg-maria {
+    background-color: #c73c24;
+}
+
+.bg-maria-light {
+    background: rgba(252,176,69,1);
+}
+
+.btn-maria {
+    background-color: #c73c24;
+    color: #FFF;
+}
+
+.shadow-maria { 
+    box-shadow: 0 0 15px #c73c24;
+}
+
+
+.roundedClientImage {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.roundedExtraSmallImage {
+    border-radius: 50%;
+    height:75px;
+    width: 75px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.roundedSmallImage {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.smallSquareImage {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.roundedTinyImage {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.roundedMediumImage {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.roundedLargeImage {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.roundedIndexImage {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 125px;
+    width: 125px;
+    object-fit: cover;
+    object-position: center;
+},
+
+.sidebarUserImage {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.maxBtn {
+    width: max-content;
+}
+
+.formStyle {
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 15px;
+}
+
+.autoCollapse {
+    box-shadow: none !important;
+    margin-left: -250px;
+}
+
+.statusRadius {
+    border-radius: 10%;
+}
+
+/* Monthly Rental Fee Display */
+.hiddenMonthlyRental {
+    display: none;
+}
+
+.showMonthlyRental {
+    display: block;
+}
+
+/* CHECK IF NO SPOUSE */
+.noSpouse {
+    display: none;
+}
+
+.withSpouse {
+    display: block;
+}
+
+/* nav tabs color */
+.navStart {
+    background-color: #007bff;
+    color: white;
+    justify-content: center;
+}
+
+.showCard {
+    background-color: transparent;
+}
+
+.navBodyStart {
+    border: 4;
+    border-color: #007bff
+}
+
+.imgContainer {
+    position: relative;
+}
+
+.imgContainer img {
+    display: block;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.imgContainer .fas {
+    position: absolute;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 50%;
+    border-color:transparent;
+    background-color: #3a3b3c;
+    color:white;
+    padding: 5px;
+    margin: 2px;
+    bottom: 0%;
+    left: 70%;
+}
+
+
+/**NAV TABS HEADER COLORS**/
+.bodyTab {
+    border-style: solid;
+    border-color: #ffc600;
+    /* border-top:transparent; */
+    
+    border-radius: 0px 0px 4px 4px;
+}
+
+.clientCardBorder {
+    border-style: solid;
+    border-color: #007bff;
+}
+
+.nav-tabs .nav-item .nav-link.active.tab_warning {
+    background-color: #ffc600;
+    border-color: transparent;
+    color: white;
+}
+
+.nav-tabs .nav-item .nav-link.active.tab_gray {
+    background-color: gray;
+    border-color: transparent;
+    color: white;
+}
+
+.nav-tabs .nav-item .nav-link.active.tab_personalInfo {
+    background-color: #007bff;
+    border-color: transparent;
+    color: white;
+}
+
+.nav-tabs .nav-item .nav-link.active.tab_propertyInfo {
+    background-color: #007bff;
+    border-color: transparent;
+    color: white;
+}
+
+.nav-tabs .nav-item .nav-link.active.tab_broker {
+    background-color: #6610f2;
+    border-color: transparent;
+    color: white;
+}
+
+.nav-tabs .nav-item .nav-link.active.tab_spouse {
+    background-color: #dc3545;
+    border-color: transparent;
+    color: white;
+}
+
+.nav-tabs .nav-item .nav-link.active.tab_security {
+    background-color: #dc3545;
+    border-color: transparent;
+    color: white;
+}
+
+.nav-tabs .nav-item .nav-link.active.tab_moreInfo {
+    background-color: #141291;
+    border-color: transparent;
+    color: white;
+}
+
+.nav-tabs .nav-item .nav-link.active.tab_employment {
+    background-color: #ffc600;
+    border-color: transparent;
+    color: white;
+}
+
+.nav-tabs .nav-item .nav-link.active.tab_selfEmployed {
+    background-color: #17a2b8;
+    border-color: transparent;
+    color: white;
+}
+
+.nav-tabs .nav-item .nav-link.active.tab_dependents {
+    background-color: #28a745;
+    border-color: transparent;
+    color: white;
+}
+
+.nav-tabs .nav-item .nav-link.active.tab_nrcr {
+    background-color: #343a40;
+    border-color: transparent;
+    color: white;
+}
+
+.thead-warning {
+    background-color: #ffc600;
+    color: white;
+}
+
+.thead-info {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.thead-success {
+    background-color: #28a745;
+    color: white;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #eeeccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
